@@ -24,9 +24,7 @@ class SharedPreferenceUtil{
     }
 
     fun saveFacebookUser(user: User) {
-
         val gson = Gson()
-
         val jsonFacebookUser = gson.toJson(user)
 
         sharedPreference
