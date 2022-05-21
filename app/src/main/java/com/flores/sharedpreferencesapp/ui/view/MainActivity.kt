@@ -1,4 +1,4 @@
-package com.flores.sharedpreferencesapp.activity
+package com.flores.sharedpreferencesapp.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

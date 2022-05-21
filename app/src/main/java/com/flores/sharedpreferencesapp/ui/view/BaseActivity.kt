@@ -1,10 +1,9 @@
-package com.flores.sharedpreferencesapp.activity
+package com.flores.sharedpreferencesapp.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.viewbinding.ViewBinding
-import com.flores.sharedpreferencesapp.R
 
 abstract class BaseActivity<B : ViewBinding>(val bindingFactory: (LayoutInflater)-> B) : AppCompatActivity() {
 

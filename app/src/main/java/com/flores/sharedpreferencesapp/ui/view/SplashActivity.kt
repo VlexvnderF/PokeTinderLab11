@@ -1,7 +1,6 @@
-package com.flores.sharedpreferencesapp.activity
+package com.flores.sharedpreferencesapp.ui.view
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper

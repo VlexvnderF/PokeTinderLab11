@@ -1,9 +1,8 @@
-package com.flores.sharedpreferencesapp.activity
+package com.flores.sharedpreferencesapp.ui.view
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.view.View.inflate
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
@@ -38,7 +37,7 @@ class OnboardingActivity : BaseActivity<ActivityOnboardingBinding>(ActivityOnboa
 
         binding.layBackButton.setOnClickListener{
             sharedPreferenceUtil.saveIntroShow()
-            startActivity(Intent(this,RegisterActivity::class.java))
+            startActivity(Intent(this, RegisterActivity::class.java))
         }
     }
     private fun setupIndicator(){
