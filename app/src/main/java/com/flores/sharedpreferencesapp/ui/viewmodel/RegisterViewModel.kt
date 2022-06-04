@@ -2,9 +2,8 @@ package com.flores.sharedpreferencesapp.ui.viewmodel
 import android.content.Context
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.flores.sharedpreferencesapp.data.User
+import com.flores.sharedpreferencesapp.data.model.User
 import com.flores.sharedpreferencesapp.util.SharedPreferenceUtil
-import java.net.PasswordAuthentication
 
 class RegisterViewModel (private val context: Context): ViewModel(){
     private  lateinit var sharedPreferenceUtil: SharedPreferenceUtil

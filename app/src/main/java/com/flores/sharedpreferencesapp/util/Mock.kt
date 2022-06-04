@@ -1,6 +1,6 @@
 package com.flores.sharedpreferencesapp.util
 
-import com.flores.sharedpreferencesapp.data.Onboarding
+import com.flores.sharedpreferencesapp.data.model.Onboarding
 
 class Mock {
     fun getOnboarding() = listOf(

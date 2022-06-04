@@ -1,4 +1,4 @@
-package com.flores.sharedpreferencesapp.data
+package com.flores.sharedpreferencesapp.data.model
 
 data class Onboarding(
     val id: Int,

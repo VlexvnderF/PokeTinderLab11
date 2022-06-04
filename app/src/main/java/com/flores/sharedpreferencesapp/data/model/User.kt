@@ -1,4 +1,4 @@
-package com.flores.sharedpreferencesapp.data
+package com.flores.sharedpreferencesapp.data.model
 
 import java.io.Serializable
 import com.flores.sharedpreferencesapp.R

@@ -2,10 +2,8 @@ package com.flores.sharedpreferencesapp.util
 
 import android.content.Context
 import android.content.SharedPreferences
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.util.Log
-import com.flores.sharedpreferencesapp.data.User
+import com.flores.sharedpreferencesapp.data.model.User
 import com.google.gson.Gson
 
 class SharedPreferenceUtil{

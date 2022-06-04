@@ -3,10 +3,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import com.flores.sharedpreferencesapp.data.User
 import com.flores.sharedpreferencesapp.databinding.ActivityLoginBinding
 import com.flores.sharedpreferencesapp.ui.viewmodel.LoginViewModel
-import com.flores.sharedpreferencesapp.util.SharedPreferenceUtil
 
 class LoginActivity: BaseActivity<ActivityLoginBinding>(ActivityLoginBinding::inflate) {
     private lateinit var loginViewModel: LoginViewModel

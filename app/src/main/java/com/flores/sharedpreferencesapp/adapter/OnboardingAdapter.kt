@@ -1,12 +1,11 @@
 package com.flores.sharedpreferencesapp.adapter
 
-import android.view.SurfaceHolder
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.flores.sharedpreferencesapp.R
 import com.bumptech.glide.Glide
-import com.flores.sharedpreferencesapp.data.Onboarding
+import com.flores.sharedpreferencesapp.data.model.Onboarding
 import com.flores.sharedpreferencesapp.databinding.ItemOnboardingBinding
 import inflate
 
